@@ -1,0 +1,8 @@
+{
+  "name": "example05-ip-updater",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "change-ip": "node scripts/change-ip.js"
+  }
+}
