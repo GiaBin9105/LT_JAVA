@@ -1,0 +1,17 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+, "app/(tabs)/_layout.js", "context/FavoriteContext.js", "context/CartContext.js", "context/AuthContext.js", "components/QuantitySelector.js", "components/CoffeeCard.js", "components/Button.js", "components/Banner.js", "app/_layout.js", "app/detail.js", "app/welcome.js", "app/(tabs)/account.js", "app/(tabs)/cart.js", "app/(tabs)/favorite.js", "app/(tabs)/home.js", "app/(auth)/signup.js"  ]
+}
